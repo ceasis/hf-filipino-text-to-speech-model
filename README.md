@@ -3,7 +3,7 @@
 This project packages the Filipino voice used in QnVoice. It uses OpenBMB’s pretrained VoxCPM2 with a Q4_K_M language graph, selective Q8_0 acoustic quantization, and an original synthetic Tagalog voice reference.
 
 - [Exact QnVoice GGUF release on Hugging Face](https://huggingface.co/CholoAsis/qnvoice-filipino-voxcpm2-gguf/tree/5b912ca3328145b384134040dcc520114f000e32)
-- [iOS text to speech research paper](QnVoice-Filipino-Text-to-Speech-for-iOS.pdf)
+- [Text to speech in QnVoice for iOS](QnVoice-Filipino-Text-to-Speech-for-iOS.pdf)
 - [All versions of the preprint on Zenodo](https://doi.org/10.5281/zenodo.24022271)
 
 ## Download and run
