@@ -1,0 +1,20 @@
+QnVoice Filipino VoxCPM2 GGUF
+
+VoxCPM2 is developed by OpenBMB and ModelBest and distributed under
+the Apache License, Version 2.0.
+https://huggingface.co/openbmb/VoxCPM2
+https://arxiv.org/abs/2606.06928
+
+The original mobile GGUF conversion is from tc-mb/MiniCPM-V-Apps-gguf,
+revision 2a3a3ddfbfc3d8e98c1070680b2fa98df88c3452.
+https://huggingface.co/tc-mb/MiniCPM-V-Apps-gguf
+
+voice-language.gguf is the unchanged VoxCPM2-BaseLM-Q4_K_M.gguf.
+voice-acoustic.gguf was modified by QnVoice from the upstream F16
+acoustic GGUF. QnVoice quantized eligible transformer matrices in
+ResidualLM, LocEnc, and LocDiT to Q8_0. The vocoder and stop predictor
+retain the source precision.
+
+voice-reference.wav is an original synthetic audio reference created
+for QnVoice using mlx-community/VoxCPM2-4bit, revision
+dc9e5c187858da5f4a13dc4c247e297339216381.
