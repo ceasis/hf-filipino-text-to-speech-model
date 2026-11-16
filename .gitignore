@@ -1,2 +1,3 @@
 /model/*.gguf
 /filipino.wav
+.DS_Store
